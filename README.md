@@ -1,6 +1,16 @@
 # MioCrypt
 
 > Ooops, your flag has been encrypted!
+>
+> ## 发生什么事了喵？
+>
+> 你的 flag 被 Mio 酱暂时收走啦～♡\
+> 她说这是一次绝对安全、绝对可靠、绝对不会出错的加密。
+>
+> ## 那我该怎么办？
+>
+> 当然是亲自检查 MioCrypt 啦。\
+> 毕竟，杂鱼也许偶尔能发现天才留下的小破绽？
 
 MioCrypt 是 PKWCTF2026 的一道 Windows x64 逆向题，以 Mio 酱的虚构“勒索软件”界面为背景。程序将 RSA 密钥封装与循环 XOR 组合在一起，解题过程涉及 PE 文件初筛、Windows 原生程序分析、文件格式还原和已知明文分析。
 
