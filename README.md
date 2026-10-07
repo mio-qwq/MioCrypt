@@ -2,7 +2,7 @@
 
 > Ooops, your flag has been encrypted!
 
-MioCrypt 是一道 Windows x64 CTF 逆向题，以 Mio 酱的虚构“勒索软件”界面为背景。程序将 RSA 密钥封装与循环 XOR 组合在一起，解题过程涉及 PE 文件初筛、Windows 原生程序分析、文件格式还原和已知明文分析。
+MioCrypt 是 PKWCTF2026 的一道 Windows x64 逆向题，以 Mio 酱的虚构“勒索软件”界面为背景。程序将 RSA 密钥封装与循环 XOR 组合在一起，解题过程涉及 PE 文件初筛、Windows 原生程序分析、文件格式还原和已知明文分析。
 
 本仓库公开赛后源码、资源、解题脚本与完整 WP，供个人、非商业性质的学习与研究。WP 包含详细分析与最终答案。
 
@@ -13,6 +13,7 @@ MioCrypt 是一道 Windows x64 CTF 逆向题，以 Mio 酱的虚构“勒索软�
 | 项目 | 内容 |
 | --- | --- |
 | 题目名称 | MioCrypt |
+| 所属比赛 | PKWCTF2026 |
 | 类型 | CTF Reverse Engineering |
 | 运行平台 | Windows x64 |
 | 实现 | 原生 C、Win32 GUI、Windows CNG |
@@ -121,3 +122,5 @@ python tools/package_release.py
 本项目采用 [有限源代码许可证（Limited Source Code License）](LICENSE)。允许的使用范围、限制及额外授权方式以许可证全文为准。
 
 额外授权联系：**mioqwq@hotmail.com**。
+
+> 本项目在 PKWCTF2026 结束后正式公开源代码。
