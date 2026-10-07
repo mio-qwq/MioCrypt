@@ -1,0 +1,49 @@
+# Local keys, plaintext flags, analysis databases, and migration backups
+/local/
+/organizer/
+/challenge/
+/_wp*/
+/_miocrypt_smoke_test/
+
+# Build output and release attachments
+/build/
+/dist/
+*.exe
+*.dll
+*.obj
+*.res
+*.pdb
+*.ilk
+*.zip
+
+# Private keys and local configuration (the public blob in src/ is tracked)
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+flag
+decrypted_flag.txt
+*.miocrypt.tmp
+
+# IDA and other generated analysis files
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.log
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.vscode/
+.idea/
+.vs/
+Thumbs.db
+.DS_Store

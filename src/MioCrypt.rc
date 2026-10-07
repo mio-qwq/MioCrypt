@@ -1,0 +1,5 @@
+#include "resource.h"
+
+IDI_APP_ICON ICON "..\\assets\\MioCrypt.ico"
+IDB_BACKGROUND BITMAP "..\\assets\\mio-ransomware-bg-denoised.bmp"
+IDB_LOCK BITMAP "..\\assets\\miocrypt-pixel-heart-lock.bmp"

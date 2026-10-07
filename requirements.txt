@@ -1,0 +1,3 @@
+# Optional Python tooling; building the native EXE does not require Python.
+cryptography>=42
+Pillow>=10
